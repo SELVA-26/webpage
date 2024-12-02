@@ -42,3 +42,31 @@ float:left;
 .card{
  width:45%;
 }
+@media (max-width:680px){
+  .logo{
+    height:20px;
+  }
+  h1{
+    font-size:60px;
+    text-align:center;
+  }
+  .tile-image{
+    float:none;
+    height:250px;
+    width:200%;
+  }
+  .left{
+    float:none;
+    margin-bottom:50px;
+  }
+  .right{
+    float:none;
+    margin-bottom:50px;
+  }
+  p{
+    width:550px;
+  }
+  footer{
+    margin-bottom:20px;
+  }
+}
