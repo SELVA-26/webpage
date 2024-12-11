@@ -44,29 +44,22 @@ float:left;
 }
 @media (max-width:680px){
   .logo{
-    height:20px;
+    width:100px;
   }
   h1{
     font-size:60px;
     text-align:center;
   }
   .tile-image{
-    float:none;
-    height:250px;
-    width:200%;
+    display:inline;
+    object-fit: cover;
+    width:100%;
+    margin-bottom: 10px;
   }
-  .left{
-    float:none;
-    margin-bottom:50px;
-  }
-  .right{
-    float:none;
-    margin-bottom:50px;
-  }
-  p{
-    width:550px;
-  }
-  footer{
-    margin-bottom:20px;
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
   }
 }
