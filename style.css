@@ -63,6 +63,9 @@ span{
   .card{
     float:none;
     margin-bottom: 50px;
+    width:400px;
   }
- 
+  .main{
+    margin-left: 20%;
+  }
 }
